@@ -1,0 +1,13 @@
+---
+import { Content } from "../pages/content/benefits.md"
+import benefitImage from "/assets/benefits.svg"
+---
+
+<article class="prose prose-ul:list-none flex flex-col mx-auto max-w-4xl prose-zinc prose-p:px-2 dark:prose-invert prose-xl prose-p:text-xl md:prose-xl prose-a:text-[#00cab0] hover:prose-a:text-orange-400 prose-a:decoration-wavy mt-16">
+    <div class="max-w-4xl ">
+        <img src={benefitImage} alt="curriculum image" class="rounded-md object-cover h-[350px] w-full"/>
+       </div> 
+      <div class="prose prose-zinc max-w-4xl prose-p:px-2 dark:prose-invert prose-lg prose-p:text-xl md:prose-md prose-a:text-[#00cab0] hover:prose-a:text-orange-400 prose-a:decoration-wavy">
+        <Content/>
+       </div>
+   </article>

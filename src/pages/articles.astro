@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import bannerImage from "/assets/HTML/assets/banner.png"
+---
+
+<Layout title="SpaceYaTech Mentorship | Articles ">
+	<Navbar/>
+	<section class="container relative mx-auto text-white grid grid-cols-1 md:grid-cols-3 px-4">
+	    <article class="flex max-h-[400px]">
+            <img src={bannerImage} alt="banner image html" class="object-cover"/>
+        </article>
+        <article></article>
+        <article></article>
+        <article></article>
+	  </section> 
+</Layout>
+

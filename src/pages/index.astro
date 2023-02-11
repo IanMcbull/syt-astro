@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../layouts/Hero.astro';
+import Process from '../layouts/Process.astro';
+import Projects from '../layouts/Projects.astro';
+import Curriculum from '../layouts/Curriculum.astro';
+import Target from '../layouts/Target.astro';
+import Benefit from '../layouts/Benefits.astro';
+---
+
+<Layout title="SpaceYaTech Mentorship | Home">
+	<Navbar/>
+	<main class="container relative mx-auto text-white flex flex-col h-screen px-4">
+		<Hero/>
+		<Benefit/>
+		<Curriculum/>
+		<Target/>
+		<Process/>
+		<Projects/>
+	  </main> 
+</Layout>
+

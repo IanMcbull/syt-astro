@@ -1,0 +1,23 @@
+---
+import logo from "/assets/logo-one.jpg"
+---
+
+<nav class="flex items-center sticky justify-between pt-8 md:px-0 dark:text-white font-semibold container mx-auto">
+ <a href="/"><img src={logo} class="max-w-[5.5rem]"/></a>
+ <!--Mobile Menu -->
+ <div class="flex md:hidden items-center justify-center">
+  <i class="fa-solid fa-bars-staggered text-3xl"></i>
+ </div>
+ <!--Desktop Menu -->
+ <ul class="hidden gap-16 md:flex">
+   <li ><a href="/" class="p-2">About</a></li>
+   <li><a href="articles" class="p-2">Articles</a></li>
+   <li><a href="#" class="p-2">Join our next cohort</a></li>
+ </ul>
+</nav>
+
+<style>
+    nav li a:hover{
+        border-bottom: 2px solid white;
+    }
+</style>

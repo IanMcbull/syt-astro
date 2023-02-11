@@ -1,0 +1,21 @@
+---
+import { Content } from "../pages/content/projects.md";
+import projectOneImage from "/assets/project-one.webp"
+import projectTwoImage from "/assets/project-two.webp"
+import projectThreeImage from "/assets/project-three.webp"
+import projectFourImage from "/assets/project-four.webp"
+---
+
+<article
+  class="prose mx-auto max-w-4xl mt-16 prose-zinc prose-p:px-2 dark:prose-invert prose-lg prose-p:text-xl md:prose-xl prose-a:text-[#00cab0] hover:prose-a:text-orange-400 prose-a:decoration-wavy flex flex-col gap-4"
+>
+  <Content />
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+     <div>
+      <img src={projectOneImage} src="project one screenshot" class="object-cover max-h-[270px] w-full rounded-md"/></div>
+     <img src={projectTwoImage} src="project two screenshot" class="object-cover max-h-[245px] w-full rounded-md"/>
+     <img src={projectTwoImage} src="project two screenshot" class="object-cover max-h-[245px] w-full rounded-md"/>
+     <img src={projectOneImage} src="project one screenshot" class="object-cover max-h-[270px] w-full rounded-md"/>
+     <!-- <a href="#"><img src={projectFourImage} src="project four screenshot" class="object-cover max-h-[270px] w-full rounded-md ease-in duration-300 hover:scale-110"/></a> -->
+  </div>
+</article>

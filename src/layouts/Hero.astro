@@ -1,0 +1,13 @@
+---
+import {Content} from "../pages/content/about.md"
+import bannerImage from "/assets/banner.svg"
+---
+
+<article class="flex flex-col mt-8 gap-8 grow items-center">
+  <div class="max-w-4xl">
+    <img src={bannerImage} alt="banner image" class="rounded-md object-cover"/>
+   </div> 
+  <div class="prose prose-zinc max-w-4xl prose-p:px-2 dark:prose-invert prose-lg prose-p:text-xl md:prose-md prose-a:text-[#00cab0] hover:prose-a:text-orange-400 prose-a:decoration-wavy">
+    <Content/>
+   </div>
+</article>
